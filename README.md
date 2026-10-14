@@ -7,7 +7,7 @@ Train a deep learning model to detect and describe keypoints in images, using cl
 ### Local Training
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/keypoint-detection.git
+git clone https://github.com/ofSener/keypoint-detection.git
 cd keypoint-detection
 
 # Create conda environment
@@ -31,7 +31,7 @@ python scripts/train.py train --data data/processed --bs 32 --ep 12 --lr 2e-4
 ```
 
 ### Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/keypoint-detection/blob/main/keypoint_training.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ofSener/keypoint-detection/blob/main/keypoint_training.ipynb)
 
 1. Open the notebook in Colab
 2. Enable GPU runtime
